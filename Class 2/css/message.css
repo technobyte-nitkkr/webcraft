@@ -1,0 +1,16 @@
+.messages{
+    display: grid;
+    grid-template-rows: 60px calc(100vh - 120px) 60px;
+    grid-template-areas: "header" "message" "input";
+}
+.header{
+    grid-area: header;
+    background-color: rgb(70, 70, 70);
+}
+.message{
+    grid-area: message;
+}
+.input{
+    grid-area: input;
+    background-color: rgb(70, 70, 70);
+}
